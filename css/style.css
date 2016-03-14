@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(deepskyblue, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(deepskyblue, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(deepskyblue, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(deepskyblue, black); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: transparent !important;
+}
+
+.fontwork{
+    color: white;
+    font-size: 75px;
+    font-family: 'Passion One', cursive;
+}
+
+.fontwork2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+}
+
+.fontwork3{
+    color: white;
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+}
+
+.btn{
+    width: 125px;
+    height: 45px;
+    background: transparent;
+    border: solid 3px white;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    color: white;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.fa1{
+    color: gold;
+}
