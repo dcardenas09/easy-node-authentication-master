@@ -16,6 +16,10 @@ body{
     background-color: transparent !important;
 }
 
+.profilebox{
+    background-color: transparent !important;
+}
+
 .fontwork{
     color: white;
     font-size: 75px;
@@ -54,4 +58,21 @@ body{
 
 .fa1{
     color: gold;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    margin-top: 40px;
+}
+
+.centertext{
+    text-align: center;
 }

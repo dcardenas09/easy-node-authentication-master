@@ -14,29 +14,30 @@
 <body>
 <div class="container">
 
-    <div class="page-header text-center">
-        <h1><span class="fa fa-github-alt"></span> Profile Page</h1>
-        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    <div class="text-center">
+        <h1 class="fontwork2"><span class="fa fa-github-alt fa1"></span> PROFILE PAGE</h1>
+        <a href="/logout" class="btn btn-default btn-sm"><span class="fa fa-hand-o-right"></span> LOGOUT</a>
     </div>
 
-    <div class="row">
+    <div class="row row-centered">
 
         <!-- LOCAL INFORMATION -->
-        <div class="col-sm-6">
-            <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
+        <div class="col-xs-6 col-centered">
+            <div class="well profilebox">
+                <h3 class="fontwork2 centertext"><span class="fa fa-user fa1"></span> USER INFO</h3>
 
                 <% if (user.local.email) { %>
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
+                    <p class="fontwork3 centertext">
+                        <strong>First Name</strong>: <%= user.local.firstname %><br>
+                        <strong>Last Name</strong>: <%= user.local.lastname %><br>
+                        <strong>Email</strong>: <%= user.local.email %><br>
+                        <strong>Birthday</strong>: <%= user.local.birthday %>
                     </p>
                     
-                    <a href="/unlink/local" class="btn btn-default">Unlink</a>
+                  <!--  <a href="/unlink/local" class="btn btn-default"><span class="fa fa-ellipsis-h"></span> UNLINK</a>
                 <% } else { %>
                     <a href="/connect/local" class="btn btn-default">Connect Local</a>
-                <% } %>
+                <% } %> -->
 
             </div>
         </div>
